@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kniffel.Shared", "Kniffel.Shared\Kniffel.Shared.csproj", "{A499B7D6-85DA-41C8-AB05-95C5ADF87A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kniffel.Tests", "Kniffel.Tests\Kniffel.Tests.csproj", "{162AA2C3-4666-4747-BC63-217200254DD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A499B7D6-85DA-41C8-AB05-95C5ADF87A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A499B7D6-85DA-41C8-AB05-95C5ADF87A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A499B7D6-85DA-41C8-AB05-95C5ADF87A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A499B7D6-85DA-41C8-AB05-95C5ADF87A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162AA2C3-4666-4747-BC63-217200254DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162AA2C3-4666-4747-BC63-217200254DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162AA2C3-4666-4747-BC63-217200254DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162AA2C3-4666-4747-BC63-217200254DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
