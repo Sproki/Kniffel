@@ -3,7 +3,7 @@ namespace Kniffel.Shared;
 public class Wuerfelbecher
 {
     // Private Attribute
-    private Wuerfel[] wuerfelListe = new Wuerfel[5];
+    private Wuerfel[] alleWuerfel = new Wuerfel[5];
     private bool[] festgehaltenenWuerfel = new bool[5];
     
     // Konstruktor
@@ -11,14 +11,14 @@ public class Wuerfelbecher
     {
         for (int i = 0; i < wuerfelAnzahl; i++)
         {
-            wuerfelListe[i] = new Wuerfel();
+            alleWuerfel[i] = new Wuerfel();
         }
     }
     
     // Public Eigenschaften zu unseren privaten Attributen
-    public Wuerfel[] WuerfelListe
+    public Wuerfel[] AlleWuerfel
     {
-        get { return wuerfelListe; }
+        get { return alleWuerfel; }
     }
     
     public bool[] FestgehaltenenWuerfel
@@ -29,11 +29,11 @@ public class Wuerfelbecher
     // Methoden
     public void Wuerfeln()
     {
-        for (int i = 0; i < wuerfelListe.Length; i++)
+        for (int i = 0; i < alleWuerfel.Length; i++)
         {
             if (festgehaltenenWuerfel[i] == false)
             {
-                wuerfelListe[i].Wuerfeln();
+                alleWuerfel[i].Wuerfeln();
             }
         }
     }
@@ -42,6 +42,4 @@ public class Wuerfelbecher
     {
         festgehaltenenWuerfel[index] = festhalten;
     }
-    
-    //TODO Was habe ich nochmal mit Augenzahlen im Klassendiagramm gemeint??
 }
