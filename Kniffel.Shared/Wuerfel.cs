@@ -6,7 +6,12 @@ public class Wuerfel
     private int seiten;
     private int augenzahl;
     
-    // Konstruktor
+    // Konstruktoren
+    public Wuerfel()
+    {
+        this.seiten = 6;
+    }
+    
     public Wuerfel(int seiten)
     {
         this.seiten = seiten;

@@ -11,7 +11,7 @@ public class Wuerfelbecher
     {
         for (int i = 0; i < wuerfelAnzahl; i++)
         {
-            wuerfelListe[i] = new Wuerfel(6);
+            wuerfelListe[i] = new Wuerfel();
         }
     }
     
